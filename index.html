@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.qhDXWpKopYk.L.W.O/d=0/rs=AN8SPfp0QXhhaDDdjg_LgcSqoZiPEzC1tw/m=el_main_css">
+</head>
+<body>
+    <h1 id="title">Formulario de encuesta freeCodeCamp</h1>
+    <p id="description">
+        Gracias por tomarse el tiempo para ayudarnos a mejorar la plataforma.
+    </p>
+    <form action="" id="survey-form">
+        <label for="nome" id="name-label">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Introduzca su nombre" required>
+        <label for="email" id="email-label">Correo electrónico</label>
+        <input type="email" name="email" id="email" placeholder="Introduce tu correo electrónico" required>
+        <label for="number" id="number-label">Edad (opcional)</label>
+        <input type="number" name="number" id="number" placeholder="Edad" min="0" max="20">
+        <label for="opcion" id="option-label">¿Qué opción describe mejor su función actual?</label>
+        <select name="dropdown" id="dropdown">
+            <option value="name">Alumno</option>
+            <option value="name">Trabajo de tiempo completo</option>
+            <option value="name">Estudiante de tiempo completo</option>
+            <option value="name">Prefiero no decirlo</option>
+            <option value="name">Otro</option>
+        </select>
+
+        <label for="radio-group" id="radio-label">¿Recomendarías freeCodeCamp a un amigo?</label>
+        <p class="radio"><input type="radio" name="radio-group"  class="radio-group" value="option1" placeholder="Definitivamente"> Definitivamente</p>
+        <p class="radio"><input type="radio" name="radio-group" class="radio-group" value="option2" placeholder="Talvez" >Talvez</p>
+        <p class="radio"><input type="radio" name="radio-group"  class="radio-group" value="option3" placeholder="No estoy seguro">No estoy seguro</p>
+       
+        <label for="checkbox" id="checkbox-label">¿Qué te gustaría ver mejorado?</label>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Proyectos front-end</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Proyectos de back-end</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Visualización de datos</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Desafíos</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Comunidad de código abierto</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Salas de ayuda de Gitter</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Vídeos</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Encuentros de la ciudad</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">wiki</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Foro</p>
+        <p class="checkbox"><input type="checkbox" name="checkbox" class="checkbox-group" value="option" placeholder="1">Cursos adicionales</p>
+        <label for="comments" id="comments-label">¿Algún comentario o sugerencia?</label>
+        <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Escribe aqui tu comentario...."></textarea>
+
+        <button type="submit" id="submit">Entregar</button>
+    </form>
+</body>
+</html>
